@@ -21,7 +21,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4J8-wb-J2s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2740" y="446"/>
+            <point key="canvasLocation" x="-3427.5" y="43.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -205,11 +205,288 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="9xI-qk-7G2"/>
+                    <navigationItem key="navigationItem" id="9xI-qk-7G2">
+                        <barButtonItem key="rightBarButtonItem" title="1" id="kkZ-b4-vy7">
+                            <connections>
+                                <segue destination="TI7-6T-jd9" kind="show" id="Olt-aj-J9n"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2072.25" y="406.5"/>
+            <point key="canvasLocation" x="-2791.5" y="48"/>
+        </scene>
+        <!--麦子学院-IOS动画编程-->
+        <scene sceneID="mOK-6x-9PN">
+            <objects>
+                <viewController id="TI7-6T-jd9" customClass="ViewControllerMZ1" customModule="_1_核心动画" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="J8d-8O-VXR"/>
+                        <viewControllerLayoutGuide type="bottom" id="17p-DW-lv1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="61J-C8-ebv">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AbI-Kl-jvC">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="OtS-Ni-dbc"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem title="01" id="u7i-mV-3gP">
+                                        <connections>
+                                            <action selector="typeOne" destination="TI7-6T-jd9" id="FOW-kW-hOQ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="36x-FR-C4a"/>
+                                    <barButtonItem title="02" id="zaR-qF-hne">
+                                        <connections>
+                                            <action selector="typeTwo" destination="TI7-6T-jd9" id="Dtr-cu-joY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Peh-2U-DxR"/>
+                                    <barButtonItem title="03" id="X46-po-bks">
+                                        <connections>
+                                            <action selector="typeThree" destination="TI7-6T-jd9" id="CeW-Bx-aec"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Ha7-Ih-i5m"/>
+                                    <barButtonItem title="04" id="w2a-se-d8X">
+                                        <connections>
+                                            <action selector="typeFour" destination="TI7-6T-jd9" id="dh5-gk-MSf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="sxu-2r-VZp"/>
+                                    <barButtonItem title="05" id="ITm-nm-9UL">
+                                        <connections>
+                                            <action selector="typeFive" destination="TI7-6T-jd9" id="tEa-un-5dg"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Vpy-g5-AjI"/>
+                                    <barButtonItem title="06" id="CGB-Ic-1MI">
+                                        <connections>
+                                            <action selector="typeSix" destination="TI7-6T-jd9" id="48Y-8L-uTL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="u6V-7L-cml"/>
+                                    <barButtonItem title="07" id="hqk-4f-vw0">
+                                        <connections>
+                                            <action selector="typeSeven" destination="TI7-6T-jd9" id="eVJ-kJ-L5Q"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="whe-RX-JE8"/>
+                                    <barButtonItem title="08" id="t8Q-KO-mYT">
+                                        <connections>
+                                            <action selector="typeEight" destination="TI7-6T-jd9" id="rMC-Cr-0Hx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="kSh-zQ-e2y"/>
+                                    <barButtonItem title="09" id="gZH-rP-eXW">
+                                        <connections>
+                                            <action selector="typeNine" destination="TI7-6T-jd9" id="u8V-47-YfH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="OZk-Ml-den"/>
+                                    <barButtonItem title="end" id="akg-GL-FUy">
+                                        <connections>
+                                            <action selector="endAnimation" destination="TI7-6T-jd9" id="qGj-SO-36u"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="OtS-Ni-dbc"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="OtS-Ni-dbc"/>
+                                    </mask>
+                                </variation>
+                            </toolbar>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="0.53985430739999996" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="AbI-Kl-jvC" firstAttribute="leading" secondItem="61J-C8-ebv" secondAttribute="leading" id="3Xf-gU-dj0"/>
+                            <constraint firstAttribute="trailing" secondItem="AbI-Kl-jvC" secondAttribute="trailing" id="nhD-wo-z9r"/>
+                            <constraint firstItem="17p-DW-lv1" firstAttribute="top" secondItem="AbI-Kl-jvC" secondAttribute="bottom" id="pQf-5W-bwW"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="AbI-Kl-jvC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="3Xf-gU-dj0"/>
+                                <exclude reference="nhD-wo-z9r"/>
+                                <exclude reference="pQf-5W-bwW"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="AbI-Kl-jvC"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="3Xf-gU-dj0"/>
+                                <include reference="nhD-wo-z9r"/>
+                                <include reference="pQf-5W-bwW"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="麦子学院-IOS动画编程" id="4r0-Jh-4Yi">
+                        <barButtonItem key="rightBarButtonItem" title="2" id="0ol-9V-W97">
+                            <connections>
+                                <segue destination="r0N-3S-pRK" kind="show" id="XRA-02-zNf"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eOJ-lU-NOR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2167.5" y="59.25"/>
+        </scene>
+        <!--iOS 中 CALayer 的使用-->
+        <scene sceneID="YHx-3o-iRe">
+            <objects>
+                <viewController title="iOS 中 CALayer 的使用" id="r0N-3S-pRK" customClass="ViewControllerCALayer" customModule="_1_核心动画" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PxL-ZS-QR3"/>
+                        <viewControllerLayoutGuide type="bottom" id="3LL-nH-wcI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G82-ha-qH4">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gKn-4D-aEm" customClass="ProgressView" customModule="_1_核心动画" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <animations/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="ULq-Hj-C4U"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ULq-Hj-C4U"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <mask key="constraints">
+                                        <include reference="ULq-Hj-C4U"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" red="0.4377761994949495" green="0.15589878362441753" blue="0.13657374257773278" alpha="0.21336570945945946" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gKn-4D-aEm" firstAttribute="leading" secondItem="G82-ha-qH4" secondAttribute="leading" id="Ye0-j8-jY1"/>
+                            <constraint firstItem="3LL-nH-wcI" firstAttribute="top" secondItem="gKn-4D-aEm" secondAttribute="bottom" constant="81" id="aNr-1i-BDI"/>
+                            <constraint firstAttribute="trailing" secondItem="gKn-4D-aEm" secondAttribute="trailing" id="vV2-BG-Apd"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="gKn-4D-aEm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="Ye0-j8-jY1"/>
+                                <exclude reference="vV2-BG-Apd"/>
+                                <exclude reference="aNr-1i-BDI"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="gKn-4D-aEm"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="Ye0-j8-jY1"/>
+                                <include reference="vV2-BG-Apd"/>
+                                <include reference="aNr-1i-BDI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS 中 CALayer 的使用" id="IkA-M2-pBe">
+                        <barButtonItem key="rightBarButtonItem" title="3" id="LbC-VO-H1f">
+                            <connections>
+                                <segue destination="BvX-tQ-BBU" kind="show" id="nzf-zH-laU"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nre-hI-EX5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1515.75" y="48"/>
+        </scene>
+        <!--iOS 中 CAShapeLayer-->
+        <scene sceneID="pVB-fm-KZX">
+            <objects>
+                <viewController id="BvX-tQ-BBU" customClass="ViewControllerCAShapeLayer" customModule="_1_核心动画" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JH9-4d-0Sf"/>
+                        <viewControllerLayoutGuide type="bottom" id="z95-1U-d0y"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zf7-65-ZZ6">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="1" green="0.63338311574353057" blue="0.36912781815753049" alpha="0.51158678209459463" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS 中 CAShapeLayer" id="oHy-4h-X3R">
+                        <barButtonItem key="rightBarButtonItem" title="4" id="ufj-uA-8Lc">
+                            <connections>
+                                <segue destination="U8Z-eb-b8m" kind="show" id="gix-gf-oqZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3SH-ip-Vxb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-736.5" y="53.25"/>
+        </scene>
+        <!--iOS 中 CAGradientLayer-->
+        <scene sceneID="rIz-wY-zui">
+            <objects>
+                <viewController id="U8Z-eb-b8m" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WsY-7F-F5t"/>
+                        <viewControllerLayoutGuide type="bottom" id="HJx-O8-7Kc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MO5-QB-YrA">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.65106970560667876" green="1" blue="0.72000882984729397" alpha="0.25591216216216217" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS 中 CAGradientLayer" id="cMk-SK-YWv">
+                        <barButtonItem key="rightBarButtonItem" title="5" id="I3a-km-Ijw">
+                            <connections>
+                                <segue destination="axs-aR-6bj" kind="show" id="Br9-MO-gxZ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4l7-xo-oJ7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112.5" y="59.25"/>
+        </scene>
+        <!--使用 maskView 设计动画-->
+        <scene sceneID="gG4-GF-rsG">
+            <objects>
+                <viewController id="axs-aR-6bj" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6Sh-4G-V8g"/>
+                        <viewControllerLayoutGuide type="bottom" id="rcU-pz-ck1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SSA-Io-tQZ">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.34599001496250759" green="0.77388839007141552" blue="1" alpha="0.19977301520270271" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="使用 maskView 设计动画" id="vXL-X4-Otn">
+                        <barButtonItem key="rightBarButtonItem" title="完结" id="a3D-Js-B0C"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RyM-XL-AvY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="514.5" y="59.25"/>
         </scene>
     </scenes>
 </document>

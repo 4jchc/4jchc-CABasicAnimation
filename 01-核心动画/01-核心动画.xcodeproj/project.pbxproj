@@ -22,6 +22,24 @@
 		961B12531C337A6900BCEAAC /* HMImgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B124F1C337A6900BCEAAC /* HMImgeView.swift */; };
 		961B12541C337A6900BCEAAC /* HMxuehua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12501C337A6900BCEAAC /* HMxuehua.swift */; };
 		961B12551C337A6900BCEAAC /* zhanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12511C337A6900BCEAAC /* zhanding.swift */; };
+		961B12591C33867E00BCEAAC /* ViewController-MZ1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12581C33867E00BCEAAC /* ViewController-MZ1.swift */; };
+		961B125E1C33927D00BCEAAC /* FadeImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B125B1C33927D00BCEAAC /* FadeImageView.swift */; };
+		961B125F1C33927D00BCEAAC /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B125C1C33927D00BCEAAC /* ProgressView.swift */; };
+		961B12601C33927D00BCEAAC /* ViewController-MZ2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B125D1C33927D00BCEAAC /* ViewController-MZ2.swift */; };
+		961B12641C339C0D00BCEAAC /* ProgressCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12621C339C0D00BCEAAC /* ProgressCircleView.swift */; };
+		961B12651C339C0D00BCEAAC /* ViewControllerCAShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12631C339C0D00BCEAAC /* ViewControllerCAShapeLayer.swift */; };
+		961B12681C33A25D00BCEAAC /* 04CAGradientLayer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B12671C33A25D00BCEAAC /* 04CAGradientLayer.storyboard */; };
+		961B126E1C33A26600BCEAAC /* MulticolorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12691C33A26600BCEAAC /* MulticolorView.swift */; };
+		961B12701C33A26600BCEAAC /* ViewController02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B126B1C33A26600BCEAAC /* ViewController02.swift */; };
+		961B12711C33A26600BCEAAC /* ViewController03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B126C1C33A26600BCEAAC /* ViewController03.swift */; };
+		961B12721C33A26600BCEAAC /* ViewController04.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B126D1C33A26600BCEAAC /* ViewController04.swift */; };
+		961B12751C33A27300BCEAAC /* CAShapeLayer+Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12731C33A27300BCEAAC /* CAShapeLayer+Circle.swift */; };
+		961B12761C33A27300BCEAAC /* ColorUIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12741C33A27300BCEAAC /* ColorUIImageView.swift */; };
+		961B12781C33A2DA00BCEAAC /* ViewController01.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12771C33A2DA00BCEAAC /* ViewController01.swift */; };
+		961B127B1C33AB5400BCEAAC /* Main-maskView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B127A1C33AB5400BCEAAC /* Main-maskView.storyboard */; };
+		961B127E1C33AB8700BCEAAC /* FadeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B127C1C33AB8700BCEAAC /* FadeLabel.swift */; };
+		961B127F1C33AB8700BCEAAC /* ViewControllerMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B127D1C33AB8700BCEAAC /* ViewControllerMaskView.swift */; };
+		961B12811C33ABBA00BCEAAC /* Frame+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12801C33ABBA00BCEAAC /* Frame+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +81,24 @@
 		961B124F1C337A6900BCEAAC /* HMImgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMImgeView.swift; sourceTree = "<group>"; };
 		961B12501C337A6900BCEAAC /* HMxuehua.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMxuehua.swift; sourceTree = "<group>"; };
 		961B12511C337A6900BCEAAC /* zhanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zhanding.swift; sourceTree = "<group>"; };
+		961B12581C33867E00BCEAAC /* ViewController-MZ1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController-MZ1.swift"; sourceTree = "<group>"; };
+		961B125B1C33927D00BCEAAC /* FadeImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeImageView.swift; sourceTree = "<group>"; };
+		961B125C1C33927D00BCEAAC /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		961B125D1C33927D00BCEAAC /* ViewController-MZ2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController-MZ2.swift"; sourceTree = "<group>"; };
+		961B12621C339C0D00BCEAAC /* ProgressCircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressCircleView.swift; sourceTree = "<group>"; };
+		961B12631C339C0D00BCEAAC /* ViewControllerCAShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerCAShapeLayer.swift; sourceTree = "<group>"; };
+		961B12671C33A25D00BCEAAC /* 04CAGradientLayer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = 04CAGradientLayer.storyboard; sourceTree = "<group>"; };
+		961B12691C33A26600BCEAAC /* MulticolorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MulticolorView.swift; sourceTree = "<group>"; };
+		961B126B1C33A26600BCEAAC /* ViewController02.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController02.swift; sourceTree = "<group>"; };
+		961B126C1C33A26600BCEAAC /* ViewController03.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController03.swift; sourceTree = "<group>"; };
+		961B126D1C33A26600BCEAAC /* ViewController04.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController04.swift; sourceTree = "<group>"; };
+		961B12731C33A27300BCEAAC /* CAShapeLayer+Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAShapeLayer+Circle.swift"; sourceTree = "<group>"; };
+		961B12741C33A27300BCEAAC /* ColorUIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorUIImageView.swift; sourceTree = "<group>"; };
+		961B12771C33A2DA00BCEAAC /* ViewController01.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController01.swift; sourceTree = "<group>"; };
+		961B127A1C33AB5400BCEAAC /* Main-maskView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-maskView.storyboard"; sourceTree = "<group>"; };
+		961B127C1C33AB8700BCEAAC /* FadeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeLabel.swift; sourceTree = "<group>"; };
+		961B127D1C33AB8700BCEAAC /* ViewControllerMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerMaskView.swift; sourceTree = "<group>"; };
+		961B12801C33ABBA00BCEAAC /* Frame+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Frame+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +129,8 @@
 		961B120B1C33703500BCEAAC = {
 			isa = PBXGroup;
 			children = (
+				961B12791C33AB1F00BCEAAC /* 5-maskView 设计动画 */,
+				961B12661C339EE600BCEAAC /* 4-iOS 中 CAGradientLayer 的使用 */,
 				961B12161C33703500BCEAAC /* 01-核心动画 */,
 				961B122B1C33703500BCEAAC /* 01-核心动画Tests */,
 				961B12361C33703500BCEAAC /* 01-核心动画UITests */,
@@ -113,10 +151,12 @@
 		961B12161C33703500BCEAAC /* 01-核心动画 */ = {
 			isa = PBXGroup;
 			children = (
-				961B12571C3385B200BCEAAC /* 麦子学院-IOS动画编程 */,
-				961B12171C33703500BCEAAC /* AppDelegate.swift */,
+				961B12571C3385B200BCEAAC /* 1-麦子学院-动画编程UIViewController */,
+				961B125A1C338C5600BCEAAC /* 2-iOS 中 CALayer 的使用 */,
+				961B12611C339BC700BCEAAC /* 3-iOS 中 CAShapeLayer 的使用 */,
 				961B12451C33719600BCEAAC /* 动画view */,
 				961B12191C33703500BCEAAC /* ViewController.swift */,
+				961B12171C33703500BCEAAC /* AppDelegate.swift */,
 				961B121B1C33703500BCEAAC /* Main.storyboard */,
 				961B121E1C33703500BCEAAC /* Assets.xcassets */,
 				961B12201C33703500BCEAAC /* LaunchScreen.storyboard */,
@@ -158,11 +198,59 @@
 			path = "动画view";
 			sourceTree = "<group>";
 		};
-		961B12571C3385B200BCEAAC /* 麦子学院-IOS动画编程 */ = {
+		961B12571C3385B200BCEAAC /* 1-麦子学院-动画编程UIViewController */ = {
 			isa = PBXGroup;
 			children = (
+				961B12581C33867E00BCEAAC /* ViewController-MZ1.swift */,
 			);
+			name = "1-麦子学院-动画编程UIViewController";
 			path = "麦子学院-IOS动画编程";
+			sourceTree = "<group>";
+		};
+		961B125A1C338C5600BCEAAC /* 2-iOS 中 CALayer 的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				961B125D1C33927D00BCEAAC /* ViewController-MZ2.swift */,
+				961B125B1C33927D00BCEAAC /* FadeImageView.swift */,
+				961B125C1C33927D00BCEAAC /* ProgressView.swift */,
+			);
+			path = "2-iOS 中 CALayer 的使用";
+			sourceTree = "<group>";
+		};
+		961B12611C339BC700BCEAAC /* 3-iOS 中 CAShapeLayer 的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				961B12621C339C0D00BCEAAC /* ProgressCircleView.swift */,
+				961B12631C339C0D00BCEAAC /* ViewControllerCAShapeLayer.swift */,
+			);
+			path = "3-iOS 中 CAShapeLayer 的使用";
+			sourceTree = "<group>";
+		};
+		961B12661C339EE600BCEAAC /* 4-iOS 中 CAGradientLayer 的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				961B12691C33A26600BCEAAC /* MulticolorView.swift */,
+				961B12731C33A27300BCEAAC /* CAShapeLayer+Circle.swift */,
+				961B12741C33A27300BCEAAC /* ColorUIImageView.swift */,
+				961B12771C33A2DA00BCEAAC /* ViewController01.swift */,
+				961B126B1C33A26600BCEAAC /* ViewController02.swift */,
+				961B126C1C33A26600BCEAAC /* ViewController03.swift */,
+				961B126D1C33A26600BCEAAC /* ViewController04.swift */,
+				961B12671C33A25D00BCEAAC /* 04CAGradientLayer.storyboard */,
+			);
+			name = "4-iOS 中 CAGradientLayer 的使用";
+			path = "01-核心动画/4-iOS 中 CAGradientLayer 的使用";
+			sourceTree = "<group>";
+		};
+		961B12791C33AB1F00BCEAAC /* 5-maskView 设计动画 */ = {
+			isa = PBXGroup;
+			children = (
+				961B127C1C33AB8700BCEAAC /* FadeLabel.swift */,
+				961B12801C33ABBA00BCEAAC /* Frame+Extension.swift */,
+				961B127D1C33AB8700BCEAAC /* ViewControllerMaskView.swift */,
+				961B127A1C33AB5400BCEAAC /* Main-maskView.storyboard */,
+			);
+			name = "5-maskView 设计动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +359,9 @@
 			files = (
 				961B12221C33703500BCEAAC /* LaunchScreen.storyboard in Resources */,
 				961B121F1C33703500BCEAAC /* Assets.xcassets in Resources */,
+				961B12681C33A25D00BCEAAC /* 04CAGradientLayer.storyboard in Resources */,
 				961B121D1C33703500BCEAAC /* Main.storyboard in Resources */,
+				961B127B1C33AB5400BCEAAC /* Main-maskView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,16 +386,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961B127F1C33AB8700BCEAAC /* ViewControllerMaskView.swift in Sources */,
 				961B12521C337A6900BCEAAC /* 矩阵移动缩放.swift in Sources */,
+				961B12641C339C0D00BCEAAC /* ProgressCircleView.swift in Sources */,
 				961B12491C3371DE00BCEAAC /* UIColor+Random.swift in Sources */,
+				961B12711C33A26600BCEAAC /* ViewController03.swift in Sources */,
 				961B12481C3371DE00BCEAAC /* HMPieView.swift in Sources */,
+				961B12761C33A27300BCEAAC /* ColorUIImageView.swift in Sources */,
 				961B124B1C33720B00BCEAAC /* HMBarView.swift in Sources */,
+				961B12781C33A2DA00BCEAAC /* ViewController01.swift in Sources */,
+				961B12601C33927D00BCEAAC /* ViewController-MZ2.swift in Sources */,
+				961B126E1C33A26600BCEAAC /* MulticolorView.swift in Sources */,
+				961B12811C33ABBA00BCEAAC /* Frame+Extension.swift in Sources */,
+				961B127E1C33AB8700BCEAAC /* FadeLabel.swift in Sources */,
+				961B125E1C33927D00BCEAAC /* FadeImageView.swift in Sources */,
+				961B12751C33A27300BCEAAC /* CAShapeLayer+Circle.swift in Sources */,
+				961B12591C33867E00BCEAAC /* ViewController-MZ1.swift in Sources */,
 				961B124D1C33724D00BCEAAC /* HMdrawPicTextview.swift in Sources */,
 				961B12531C337A6900BCEAAC /* HMImgeView.swift in Sources */,
+				961B12701C33A26600BCEAAC /* ViewController02.swift in Sources */,
 				961B12551C337A6900BCEAAC /* zhanding.swift in Sources */,
 				961B121A1C33703500BCEAAC /* ViewController.swift in Sources */,
 				961B12541C337A6900BCEAAC /* HMxuehua.swift in Sources */,
 				961B12181C33703500BCEAAC /* AppDelegate.swift in Sources */,
+				961B12651C339C0D00BCEAAC /* ViewControllerCAShapeLayer.swift in Sources */,
+				961B12721C33A26600BCEAAC /* ViewController04.swift in Sources */,
+				961B125F1C33927D00BCEAAC /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
