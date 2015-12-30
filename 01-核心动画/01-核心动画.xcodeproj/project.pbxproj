@@ -14,6 +14,14 @@
 		961B12221C33703500BCEAAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 961B12201C33703500BCEAAC /* LaunchScreen.storyboard */; };
 		961B122D1C33703500BCEAAC /* _1_____Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B122C1C33703500BCEAAC /* _1_____Tests.swift */; };
 		961B12381C33703500BCEAAC /* _1_____UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12371C33703500BCEAAC /* _1_____UITests.swift */; };
+		961B12481C3371DE00BCEAAC /* HMPieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12461C3371DE00BCEAAC /* HMPieView.swift */; };
+		961B12491C3371DE00BCEAAC /* UIColor+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12471C3371DE00BCEAAC /* UIColor+Random.swift */; };
+		961B124B1C33720B00BCEAAC /* HMBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B124A1C33720B00BCEAAC /* HMBarView.swift */; };
+		961B124D1C33724D00BCEAAC /* HMdrawPicTextview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B124C1C33724D00BCEAAC /* HMdrawPicTextview.swift */; };
+		961B12521C337A6900BCEAAC /* 矩阵移动缩放.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B124E1C337A6900BCEAAC /* 矩阵移动缩放.swift */; };
+		961B12531C337A6900BCEAAC /* HMImgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B124F1C337A6900BCEAAC /* HMImgeView.swift */; };
+		961B12541C337A6900BCEAAC /* HMxuehua.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12501C337A6900BCEAAC /* HMxuehua.swift */; };
+		961B12551C337A6900BCEAAC /* zhanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961B12511C337A6900BCEAAC /* zhanding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		961B12331C33703500BCEAAC /* 01-核心动画UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "01-核心动画UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		961B12371C33703500BCEAAC /* _1_____UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_____UITests.swift"; sourceTree = "<group>"; };
 		961B12391C33703500BCEAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		961B12461C3371DE00BCEAAC /* HMPieView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMPieView.swift; sourceTree = "<group>"; };
+		961B12471C3371DE00BCEAAC /* UIColor+Random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Random.swift"; sourceTree = "<group>"; };
+		961B124A1C33720B00BCEAAC /* HMBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMBarView.swift; sourceTree = "<group>"; };
+		961B124C1C33724D00BCEAAC /* HMdrawPicTextview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMdrawPicTextview.swift; sourceTree = "<group>"; };
+		961B124E1C337A6900BCEAAC /* 矩阵移动缩放.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "矩阵移动缩放.swift"; sourceTree = "<group>"; };
+		961B124F1C337A6900BCEAAC /* HMImgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMImgeView.swift; sourceTree = "<group>"; };
+		961B12501C337A6900BCEAAC /* HMxuehua.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HMxuehua.swift; sourceTree = "<group>"; };
+		961B12511C337A6900BCEAAC /* zhanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zhanding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +113,9 @@
 		961B12161C33703500BCEAAC /* 01-核心动画 */ = {
 			isa = PBXGroup;
 			children = (
+				961B12571C3385B200BCEAAC /* 麦子学院-IOS动画编程 */,
 				961B12171C33703500BCEAAC /* AppDelegate.swift */,
+				961B12451C33719600BCEAAC /* 动画view */,
 				961B12191C33703500BCEAAC /* ViewController.swift */,
 				961B121B1C33703500BCEAAC /* Main.storyboard */,
 				961B121E1C33703500BCEAAC /* Assets.xcassets */,
@@ -123,6 +141,28 @@
 				961B12391C33703500BCEAAC /* Info.plist */,
 			);
 			path = "01-核心动画UITests";
+			sourceTree = "<group>";
+		};
+		961B12451C33719600BCEAAC /* 动画view */ = {
+			isa = PBXGroup;
+			children = (
+				961B124C1C33724D00BCEAAC /* HMdrawPicTextview.swift */,
+				961B12461C3371DE00BCEAAC /* HMPieView.swift */,
+				961B124A1C33720B00BCEAAC /* HMBarView.swift */,
+				961B124E1C337A6900BCEAAC /* 矩阵移动缩放.swift */,
+				961B124F1C337A6900BCEAAC /* HMImgeView.swift */,
+				961B12501C337A6900BCEAAC /* HMxuehua.swift */,
+				961B12511C337A6900BCEAAC /* zhanding.swift */,
+				961B12471C3371DE00BCEAAC /* UIColor+Random.swift */,
+			);
+			path = "动画view";
+			sourceTree = "<group>";
+		};
+		961B12571C3385B200BCEAAC /* 麦子学院-IOS动画编程 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "麦子学院-IOS动画编程";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +296,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961B12521C337A6900BCEAAC /* 矩阵移动缩放.swift in Sources */,
+				961B12491C3371DE00BCEAAC /* UIColor+Random.swift in Sources */,
+				961B12481C3371DE00BCEAAC /* HMPieView.swift in Sources */,
+				961B124B1C33720B00BCEAAC /* HMBarView.swift in Sources */,
+				961B124D1C33724D00BCEAAC /* HMdrawPicTextview.swift in Sources */,
+				961B12531C337A6900BCEAAC /* HMImgeView.swift in Sources */,
+				961B12551C337A6900BCEAAC /* zhanding.swift in Sources */,
 				961B121A1C33703500BCEAAC /* ViewController.swift in Sources */,
+				961B12541C337A6900BCEAAC /* HMxuehua.swift in Sources */,
 				961B12181C33703500BCEAAC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
