@@ -106,7 +106,6 @@ class ViewControllerMaskView: UIViewController {
     /**
      * 使用CAGradientLayer设置maskView
      */
-    
     private func setupMaskViewUsingLayer() {
         
         // 描述2
